@@ -429,6 +429,12 @@ a {
   }
 }
 
+@media only screen and (max-width: 600px){
+  .center__video {
+    margin-left: -12%;
+  }
+}
+
 .mil-suptitle {
   position: relative;
   display: block;
