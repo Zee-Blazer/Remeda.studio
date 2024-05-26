@@ -433,6 +433,12 @@ a {
   .center__video {
     margin-left: -12%;
   }
+  .reduce__margin__bt {
+    margin-bottom: -240px;
+  }
+  .reduce__margin__t {
+    margin-top: -180px;
+  }
 }
 
 .mil-suptitle {
