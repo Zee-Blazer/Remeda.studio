@@ -429,6 +429,13 @@ a {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .reduce__margin__t
+  {
+    margin-top: -410px;
+  }
+}
+
 @media only screen and (max-width: 600px){
   .center__video {
     margin-left: -12%;
@@ -436,8 +443,8 @@ a {
   .reduce__margin__bt {
     margin-bottom: -240px;
   }
-  .reduce__margin__t {
-    margin-top: -180px;
+  .reduce__margin__t .reduce__margin__t-video {
+    margin-top: -189px;
   }
 }
 
