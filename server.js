@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, "./public")));
 
 app.get("*", (req, res) => {
-    res.render("404.html", {error: "No page"})
+    res.render("404.html", {error: "No page"}) // To send a 404 page
 })
 
 const port = process.env.PORT || 4000;
