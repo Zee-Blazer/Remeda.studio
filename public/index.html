@@ -612,7 +612,7 @@
                 <!-- partners end -->
 
                 <!-- blog -->
-                <section>
+                <!-- <section>
                     <div class="container mil-p-120-60">
                         <div class="row align-items-center mil-mb-30">
                             <div class="col-lg-6 mil-mb-30">
@@ -669,7 +669,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
                 <!-- blog end -->
 
                 <!-- footer -->
