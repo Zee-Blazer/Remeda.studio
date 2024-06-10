@@ -2,6 +2,8 @@ const path = require('path');
 const express = require('express');
 const cors = require('cors');
 
+require('dotenv').config(); // Using the .env configuration for these files
+
 const app = express();
 
 // App use instances
@@ -11,7 +13,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "./public")));
 
 app.post('/send-email', async (req, res) => {
-    
+
 })
 
 app.get("*", (req, res) => {
