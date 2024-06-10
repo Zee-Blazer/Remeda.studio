@@ -15,6 +15,7 @@ app.use(express.static(path.join(__dirname, "./public")));
 
 app.post('/send-email', async (req, res) => {
     const {username, email, story} = req.body;
+    console.log(req.body);
 
     try{
         const sentEmail = await emailSender({ username, email, story });
