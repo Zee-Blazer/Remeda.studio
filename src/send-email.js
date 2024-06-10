@@ -14,8 +14,8 @@ const emailSender = ({ username, email, story }) => {
         from: `${username} a Remeda.studio User`,
         to: 'help@remeda.studio',
         subject: `Here is a email from one of our user at Remeda.studio`,
-        text: `
-            <h1>Here is the message from ${username}(email: ${email})</h1>
+        html: `
+            <h3>Here is the message from ${username}(email: ${email})</h3>
             <p>${story}</p>
         `
     };

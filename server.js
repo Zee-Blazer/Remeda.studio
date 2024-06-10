@@ -15,6 +15,13 @@ app.use(express.static(path.join(__dirname, "./public")));
 
 app.post('/send-email', async (req, res) => {
     const {username, email, story} = req.body;
+
+    try{
+        const sentEmail = await emailSender({ username, email, story });
+        res.status(200).send(sentEmail);
+    } catch(err){
+        res.status(400).send("An error occured");
+    }
 })
 
 app.get("*", (req, res) => {
