@@ -12,7 +12,7 @@ const emailSender = ({ username, email, story }) => {
       
     const mailOptions = {
         from: `${username} a Remeda.studio User`,
-        to: "ganiyu.bolaji.bo@gmail.com",//'help@remeda.studio',
+        to: 'help@remeda.studio',
         subject: `Here is a email from one of our user at Remeda.studio`,
         html: `
             <h3>Here is the message from ${username}(email: ${email})</h3>
